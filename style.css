@@ -1,0 +1,89 @@
+@import url('googleapis.com');
+
+body {
+  background: #050505;
+  color: white;
+  font-family: "Google Sans", "Product Sans", sans-serif;
+}
+
+.title { 
+  color: white; 
+  font-family: "Archivo", sans-serif;  
+  font-size: 60px; 
+  text-align: center; 
+  margin-top: 30px;
+  font-weight: 600;
+  margin-right: 200px;
+}
+
+.description {
+  color: silver;
+  font-family: "Google Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: -70px;
+}
+
+.sectiontitle {
+  font-family: "Lilita One", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.playgamesbutton {
+  display: inline-block;
+  border-radius: 10px;
+  color: white;
+  padding: 18px 40px;
+  font-size: 30px;
+  border: 3px solid #242424;
+  background-color: #141414;
+  gap: 12px;
+  align-items: center;
+  vertical-align: middle;
+  display: inline-flex;
+  font-weight: bold;
+
+  transition: background-color 0.4s ease, transform 0.15s ease-in-out, border 0.2s ease;
+  
+}
+
+.playgamesbutton:hover {
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transform: translateY(-5px);
+  border: 3px solid #383838;
+}
+
+.buttonsidegames {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  transform: translateY(3px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+  
+  
+}
+
+.playgamesbutton:hover .buttonsidegames {
+  transform: translateY(0px) scale(1.0);
+  filter: drop-shadow(0 2px 8px rgba(18, 18, 18)); 
+}
+.buttondescription {
+  color: silver;
+  font-family: "Google Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin: auto
+}
+
+p {
+  color: white;
+}
+
+h1 {
+  font-weight: bold;
+}
